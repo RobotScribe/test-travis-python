@@ -7,8 +7,8 @@ def test_proc(x):
     43
 
     """
-    return x
+    return x+1
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod(test_proc(42)=42)
+    doctest.testmod(raise_on_error=True)
