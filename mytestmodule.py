@@ -11,4 +11,4 @@ def test_proc(x):
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod(raise_on_error=True)
+    doctest.testmod(test_proc(42)=42)
